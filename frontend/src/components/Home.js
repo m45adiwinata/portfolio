@@ -5,7 +5,7 @@ import MyTabs from './sections/MyTabs';
 import HomeFeature from './sections/HomeFeature';
 import HomeGallery from './sections/HomeGallery';
 import HomeTestimonial from './sections/HomeTestimonial';
-// import Footer from './sections/Footer';
+import Footer from './sections/Footer';
 
 export default class Home extends Component {
     render() {
@@ -17,7 +17,7 @@ export default class Home extends Component {
                 <HomeFeature />
                 <HomeGallery />
                 <HomeTestimonial />
-                {/* <Footer /> */}
+                <Footer />
             </div>
         );
     }
